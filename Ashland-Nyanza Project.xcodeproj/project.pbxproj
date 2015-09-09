@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8164369C1B866D89009E1C22 /* SiteDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8164369B1B866D88009E1C22 /* SiteDetailsViewController.swift */; };
+		816436A01B9E0EAF009E1C22 /* SiteListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8164369F1B9E0EAF009E1C22 /* SiteListTableViewController.swift */; };
+		816436A21B9E17E0009E1C22 /* ListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816436A11B9E17E0009E1C22 /* ListItemTableViewCell.swift */; };
+		8177D3E91BA08D50002D9CC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8177D3E81BA08D50002D9CC7 /* Images.xcassets */; };
 		81C8AEC11B82878000C6552C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C8AEC01B82878000C6552C /* AppDelegate.swift */; };
 		81C8AEC31B82878000C6552C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C8AEC21B82878000C6552C /* ViewController.swift */; };
 		81C8AEC61B82878000C6552C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C8AEC41B82878000C6552C /* Main.storyboard */; };
-		81C8AEC81B82878000C6552C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C8AEC71B82878000C6552C /* Images.xcassets */; };
 		81C8AECB1B82878000C6552C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81C8AEC91B82878000C6552C /* LaunchScreen.xib */; };
 		81C8AED71B82878000C6552C /* Ashland_Nyanza_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C8AED61B82878000C6552C /* Ashland_Nyanza_ProjectTests.swift */; };
+		81C8AEE11B829D6F00C6552C /* SiteMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C8AEE01B829D6F00C6552C /* SiteMapViewController.swift */; };
+		81C8AEE51B829EE100C6552C /* InterviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C8AEE41B829EE100C6552C /* InterviewsViewController.swift */; };
+		81C8AEE91B829EFB00C6552C /* SharingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C8AEE81B829EFB00C6552C /* SharingViewController.swift */; };
+		81C8AEED1B8542EA00C6552C /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C8AEEC1B8542EA00C6552C /* ListItem.swift */; };
+		81DD748B1B9F7AFA00D849A4 /* ChemicalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DD748A1B9F7AFA00D849A4 /* ChemicalsTableViewController.swift */; };
+		81DD748D1B9F7E3200D849A4 /* ChemicalsListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DD748C1B9F7E3200D849A4 /* ChemicalsListItem.swift */; };
+		81DD748F1B9F7F3300D849A4 /* ChemicalsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DD748E1B9F7F3300D849A4 /* ChemicalsTableViewCell.swift */; };
+		81DD74911B9F827A00D849A4 /* ChemicalDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DD74901B9F827A00D849A4 /* ChemicalDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +37,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8164369B1B866D88009E1C22 /* SiteDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteDetailsViewController.swift; sourceTree = "<group>"; };
+		8164369F1B9E0EAF009E1C22 /* SiteListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteListTableViewController.swift; sourceTree = "<group>"; };
+		816436A11B9E17E0009E1C22 /* ListItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemTableViewCell.swift; sourceTree = "<group>"; };
+		8177D3E81BA08D50002D9CC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		81C8AEBB1B82878000C6552C /* Ashland-Nyanza Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ashland-Nyanza Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C8AEBF1B82878000C6552C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81C8AEC01B82878000C6552C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81C8AEC21B82878000C6552C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		81C8AEC51B82878000C6552C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		81C8AEC71B82878000C6552C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		81C8AECA1B82878000C6552C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		81C8AED01B82878000C6552C /* Ashland-Nyanza ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ashland-Nyanza ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C8AED51B82878000C6552C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81C8AED61B82878000C6552C /* Ashland_Nyanza_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ashland_Nyanza_ProjectTests.swift; sourceTree = "<group>"; };
+		81C8AEE01B829D6F00C6552C /* SiteMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteMapViewController.swift; sourceTree = "<group>"; };
+		81C8AEE41B829EE100C6552C /* InterviewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewsViewController.swift; sourceTree = "<group>"; };
+		81C8AEE81B829EFB00C6552C /* SharingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharingViewController.swift; sourceTree = "<group>"; };
+		81C8AEEC1B8542EA00C6552C /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		81DD748A1B9F7AFA00D849A4 /* ChemicalsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalsTableViewController.swift; sourceTree = "<group>"; };
+		81DD748C1B9F7E3200D849A4 /* ChemicalsListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalsListItem.swift; sourceTree = "<group>"; };
+		81DD748E1B9F7F3300D849A4 /* ChemicalsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalsTableViewCell.swift; sourceTree = "<group>"; };
+		81DD74901B9F827A00D849A4 /* ChemicalDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +102,18 @@
 				81C8AEC01B82878000C6552C /* AppDelegate.swift */,
 				81C8AEC21B82878000C6552C /* ViewController.swift */,
 				81C8AEC41B82878000C6552C /* Main.storyboard */,
-				81C8AEC71B82878000C6552C /* Images.xcassets */,
+				81DD74901B9F827A00D849A4 /* ChemicalDetailsViewController.swift */,
+				81DD748A1B9F7AFA00D849A4 /* ChemicalsTableViewController.swift */,
+				81DD748E1B9F7F3300D849A4 /* ChemicalsTableViewCell.swift */,
+				81DD748C1B9F7E3200D849A4 /* ChemicalsListItem.swift */,
+				8164369B1B866D88009E1C22 /* SiteDetailsViewController.swift */,
+				8164369F1B9E0EAF009E1C22 /* SiteListTableViewController.swift */,
+				816436A11B9E17E0009E1C22 /* ListItemTableViewCell.swift */,
+				81C8AEEC1B8542EA00C6552C /* ListItem.swift */,
+				81C8AEE41B829EE100C6552C /* InterviewsViewController.swift */,
+				81C8AEE81B829EFB00C6552C /* SharingViewController.swift */,
+				81C8AEE01B829D6F00C6552C /* SiteMapViewController.swift */,
+				8177D3E81BA08D50002D9CC7 /* Images.xcassets */,
 				81C8AEC91B82878000C6552C /* LaunchScreen.xib */,
 				81C8AEBE1B82878000C6552C /* Supporting Files */,
 			);
@@ -192,9 +225,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8177D3E91BA08D50002D9CC7 /* Images.xcassets in Resources */,
 				81C8AEC61B82878000C6552C /* Main.storyboard in Resources */,
 				81C8AECB1B82878000C6552C /* LaunchScreen.xib in Resources */,
-				81C8AEC81B82878000C6552C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +245,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81C8AEE51B829EE100C6552C /* InterviewsViewController.swift in Sources */,
+				81C8AEE91B829EFB00C6552C /* SharingViewController.swift in Sources */,
 				81C8AEC31B82878000C6552C /* ViewController.swift in Sources */,
+				81DD748F1B9F7F3300D849A4 /* ChemicalsTableViewCell.swift in Sources */,
+				8164369C1B866D89009E1C22 /* SiteDetailsViewController.swift in Sources */,
+				81DD748D1B9F7E3200D849A4 /* ChemicalsListItem.swift in Sources */,
+				81C8AEE11B829D6F00C6552C /* SiteMapViewController.swift in Sources */,
+				81DD748B1B9F7AFA00D849A4 /* ChemicalsTableViewController.swift in Sources */,
+				81C8AEED1B8542EA00C6552C /* ListItem.swift in Sources */,
+				816436A01B9E0EAF009E1C22 /* SiteListTableViewController.swift in Sources */,
+				816436A21B9E17E0009E1C22 /* ListItemTableViewCell.swift in Sources */,
+				81DD74911B9F827A00D849A4 /* ChemicalDetailsViewController.swift in Sources */,
 				81C8AEC11B82878000C6552C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +453,7 @@
 				81C8AEDC1B82878000C6552C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81C8AEDD1B82878000C6552C /* Build configuration list for PBXNativeTarget "Ashland-Nyanza ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +462,7 @@
 				81C8AEDF1B82878000C6552C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
