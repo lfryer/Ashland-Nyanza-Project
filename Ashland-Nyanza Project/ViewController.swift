@@ -33,5 +33,10 @@ class ViewController: UIViewController {
     @IBAction func gotoWebsite() {
         UIApplication.sharedApplication().openURL(NSURL(string: "http://www.ashlandnyanzaproject.com/")!)
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        navigationItem.title = nil
+        
+    }
 }
 

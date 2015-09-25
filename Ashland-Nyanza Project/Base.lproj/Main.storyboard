@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="0je-gr-2Ww">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -11,7 +11,7 @@
                 <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="d0T-Iv-Zqh" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XAY-Tn-Lfy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-411" y="1707"/>
+            <point key="canvasLocation" x="-628" y="1673"/>
         </scene>
         <!--Interviews View Controller-->
         <scene sceneID="R0a-2I-EKA">
@@ -176,6 +176,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPY-AJ-QYg">
                                 <rect key="frame" x="42" y="167" width="67" height="83"/>
                                 <rect key="contentStretch" x="0.0" y="1.3877787807814457e-17" width="1" height="1"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <inset key="titleEdgeInsets" minX="-64" minY="68" maxX="0.0" maxY="0.0"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="-13" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="Site List" image="Site list">
@@ -234,6 +235,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Ini-xm-7pf"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
                         <outlet property="projectBanner" destination="MyO-p1-W5D" id="rCX-NW-5z8"/>
@@ -241,7 +243,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="202" y="307"/>
+            <point key="canvasLocation" x="734" y="307"/>
         </scene>
         <!--Chemicals Table View Controller-->
         <scene sceneID="3Gp-Aq-jdK">
@@ -276,7 +278,20 @@
                             <outlet property="delegate" destination="Y1d-zJ-soc" id="PtB-Bf-0XR"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="iWt-ZW-ZzU"/>
+                    <navigationItem key="navigationItem" id="iWt-ZW-ZzU">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="nvo-Mp-nsG">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sWG-vl-z2V">
+                                <rect key="frame" x="-23" y="-15" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back:" destination="Y1d-zJ-soc" eventType="touchUpInside" id="oNo-SR-VPd"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jee-CO-3Px" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -365,6 +380,18 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Site List" id="0a3-SW-Tqp">
                         <barButtonItem key="backBarButtonItem" title="Back" id="NAx-xE-LoL"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="7CO-AW-9aM">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f3U-9P-K1F">
+                                <rect key="frame" x="-23" y="-15" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back:" destination="QJa-gK-XtT" eventType="touchUpInside" id="1Yh-a2-Ac4"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </tableViewController>
@@ -547,6 +574,26 @@
             </objects>
             <point key="canvasLocation" x="183" y="1668"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="YeU-AM-c4X">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="0je-gr-2Ww" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="47j-aQ-bZS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="aJM-eO-gFv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GmL-bG-91n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="202" y="307"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Chemicals" width="66" height="57"/>
@@ -562,7 +609,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="GAF-ax-PQu"/>
-        <segue reference="VeI-IZ-8ur"/>
+        <segue reference="tSJ-iU-Mol"/>
+        <segue reference="kL8-HF-0Of"/>
     </inferredMetricsTieBreakers>
 </document>

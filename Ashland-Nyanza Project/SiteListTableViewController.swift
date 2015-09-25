@@ -10,6 +10,10 @@ import UIKit
 
 class SiteListTableViewController: UITableViewController {
 
+    @IBAction func back(sender: UIButton) {
+        dismissViewControllerAnimated(true, completion: nil)
+        
+    }
     var siteList = [ListItem]()
     override func viewDidLoad() {
         super.viewDidLoad()
