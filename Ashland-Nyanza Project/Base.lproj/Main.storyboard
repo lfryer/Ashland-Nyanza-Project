@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="0je-gr-2Ww">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="0je-gr-2Ww">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -19,14 +19,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MyO-p1-W5D">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MyO-p1-W5D">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="121"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="121" id="Adw-mH-eTn"/>
-                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="nqq-b4-I0g">
-                                <rect key="frame" x="36" y="281" width="100" height="83"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="nqq-b4-I0g">
+                                <rect key="frame" x="36" y="268" width="100" height="83"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="Ee3-ki-1aq"/>
                                     <constraint firstAttribute="height" constant="83" id="ZqL-ww-aE9"/>
@@ -41,8 +38,8 @@
                                     <segue destination="ePb-ZC-3rC" kind="modal" id="LqL-LY-3vj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="SFU-nZ-ISX">
-                                <rect key="frame" x="181" y="281" width="100" height="81"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="SFU-nZ-ISX">
+                                <rect key="frame" x="183" y="268" width="100" height="81"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="83" id="bOe-j3-uUl"/>
                                     <constraint firstAttribute="width" constant="100" id="g49-He-quF"/>
@@ -54,7 +51,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="jPY-AJ-QYg">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="jPY-AJ-QYg">
                                 <rect key="frame" x="36" y="153" width="100" height="83"/>
                                 <accessibility key="accessibilityConfiguration" label="Locations"/>
                                 <constraints>
@@ -71,7 +68,7 @@
                                     <segue destination="GUE-9R-Lrs" kind="modal" id="Bfz-Rt-NQD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="dQw-GX-qBf">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="dQw-GX-qBf">
                                 <rect key="frame" x="181" y="153" width="100" height="83"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="83" id="4S7-HK-IsY"/>
@@ -88,8 +85,8 @@
                                     <segue destination="LMg-Or-i5D" kind="modal" id="ewz-xh-2vz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="hku-2Y-SWq">
-                                <rect key="frame" x="38" y="421" width="100" height="83"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="hku-2Y-SWq">
+                                <rect key="frame" x="36" y="383" width="100" height="83"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="MHJ-Vx-aLz"/>
                                     <constraint firstAttribute="height" constant="83" id="piN-Kz-N0P"/>
@@ -104,8 +101,8 @@
                                     <action selector="gotoWebsite" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9e2-yJ-BuT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="TFa-nq-Idl">
-                                <rect key="frame" x="183" y="421" width="100" height="83"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="TFa-nq-Idl">
+                                <rect key="frame" x="181" y="381" width="100" height="83"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="83" id="J6C-zy-LXX"/>
                                     <constraint firstAttribute="width" constant="100" id="r9X-PL-I2x"/>
@@ -120,22 +117,24 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="TFa-nq-Idl" firstAttribute="top" secondItem="SFU-nZ-ISX" secondAttribute="bottom" multiplier="1.15" id="4d4-ke-P9z"/>
-                            <constraint firstItem="TFa-nq-Idl" firstAttribute="top" secondItem="hku-2Y-SWq" secondAttribute="top" id="63c-xN-6RV"/>
-                            <constraint firstItem="nqq-b4-I0g" firstAttribute="top" secondItem="jPY-AJ-QYg" secondAttribute="bottom" multiplier="1.2" id="IBY-I4-03p"/>
-                            <constraint firstItem="jPY-AJ-QYg" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="KMX-UN-tCK"/>
-                            <constraint firstItem="dQw-GX-qBf" firstAttribute="leading" secondItem="jPY-AJ-QYg" secondAttribute="trailing" constant="45" id="MUs-J2-iXF"/>
-                            <constraint firstItem="jPY-AJ-QYg" firstAttribute="leading" secondItem="hku-2Y-SWq" secondAttribute="leading" id="Qxx-yi-bkv"/>
-                            <constraint firstItem="MyO-p1-W5D" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="RND-nh-DcJ"/>
-                            <constraint firstItem="SFU-nZ-ISX" firstAttribute="top" secondItem="dQw-GX-qBf" secondAttribute="bottom" multiplier="1.2" id="TgF-wq-SZm"/>
-                            <constraint firstAttribute="trailing" secondItem="MyO-p1-W5D" secondAttribute="trailing" id="Vma-G8-z2Q"/>
-                            <constraint firstItem="MyO-p1-W5D" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="dNY-I8-jGz"/>
-                            <constraint firstItem="dQw-GX-qBf" firstAttribute="leading" secondItem="SFU-nZ-ISX" secondAttribute="leading" id="erE-CY-U7l"/>
-                            <constraint firstItem="dQw-GX-qBf" firstAttribute="leading" secondItem="TFa-nq-Idl" secondAttribute="leading" id="nfT-H3-UQc"/>
-                            <constraint firstItem="dQw-GX-qBf" firstAttribute="top" secondItem="jPY-AJ-QYg" secondAttribute="top" id="p8A-V8-2qN"/>
-                            <constraint firstItem="hku-2Y-SWq" firstAttribute="top" secondItem="nqq-b4-I0g" secondAttribute="bottom" multiplier="1.15" id="q26-yh-cTK"/>
-                            <constraint firstItem="SFU-nZ-ISX" firstAttribute="top" secondItem="nqq-b4-I0g" secondAttribute="top" id="vU3-PZ-2yn"/>
-                            <constraint firstItem="jPY-AJ-QYg" firstAttribute="leading" secondItem="nqq-b4-I0g" secondAttribute="leading" id="xwJ-C2-Y0O"/>
+                            <constraint firstItem="TFa-nq-Idl" firstAttribute="top" secondItem="SFU-nZ-ISX" secondAttribute="bottom" id="74X-gO-cBF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MyO-p1-W5D" secondAttribute="trailing" constant="-20" id="7eT-BS-Aum"/>
+                            <constraint firstItem="hku-2Y-SWq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" multiplier="2.8" id="H8e-Cr-sHS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TFa-nq-Idl" secondAttribute="trailing" multiplier="1.1" id="Ia7-fA-lRf"/>
+                            <constraint firstItem="SFU-nZ-ISX" firstAttribute="top" secondItem="dQw-GX-qBf" secondAttribute="bottom" id="Kxy-Ku-27V"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="TFa-nq-Idl" secondAttribute="bottom" constant="100" id="RQG-VZ-iCh"/>
+                            <constraint firstItem="dQw-GX-qBf" firstAttribute="top" secondItem="MyO-p1-W5D" secondAttribute="bottom" id="Sxb-vX-FVq"/>
+                            <constraint firstItem="nqq-b4-I0g" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" multiplier="2.8" id="U3d-Oz-DPf"/>
+                            <constraint firstItem="jPY-AJ-QYg" firstAttribute="top" secondItem="MyO-p1-W5D" secondAttribute="bottom" id="aBr-4w-hc0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SFU-nZ-ISX" secondAttribute="trailing" multiplier="1.1" id="hrt-Yu-Qka"/>
+                            <constraint firstItem="MyO-p1-W5D" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="j9G-x3-5Hp"/>
+                            <constraint firstItem="nqq-b4-I0g" firstAttribute="top" secondItem="jPY-AJ-QYg" secondAttribute="bottom" id="l9g-Gx-vQf"/>
+                            <constraint firstItem="hku-2Y-SWq" firstAttribute="top" secondItem="nqq-b4-I0g" secondAttribute="bottom" id="o3H-v2-3w1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dQw-GX-qBf" secondAttribute="trailing" multiplier="1.1" id="qyf-3U-EF8"/>
+                            <constraint firstItem="MyO-p1-W5D" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-20" id="rGY-dp-1Em"/>
+                            <constraint firstItem="MyO-p1-W5D" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="tie-av-pp1"/>
+                            <constraint firstItem="jPY-AJ-QYg" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" multiplier="2.8" id="xmg-Qq-3zO"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="hku-2Y-SWq" secondAttribute="bottom" constant="100" id="yYP-gN-sgJ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ini-xm-7pf"/>
