@@ -11,7 +11,7 @@ import UIKit
 class ChemicalDetailsViewController: UIViewController {
     @IBOutlet weak var chemicalImage: UIImageView!
     @IBOutlet weak var chemicalName: UILabel!
-    @IBOutlet weak var chemicalDescrip: UILabel!
+    @IBOutlet weak var chemicalDescrip: UITextView!
     @IBOutlet weak var chemicalScrollView: UIScrollView!
     var currentChemical: ChemicalsListItem?
     
@@ -23,8 +23,6 @@ class ChemicalDetailsViewController: UIViewController {
             chemicalDescrip.text = currentChemical.descrip
             chemicalName.text = currentChemical.text
             chemicalImage.image = currentChemical.photo
-            let fullScreenRect = UIScreen.mainScreen().applicationFrame
-            chemicalScrollView.contentSize = CGSizeMake(fullScreenRect.width, fullScreenRect.height*2.0)
         }
     }
 

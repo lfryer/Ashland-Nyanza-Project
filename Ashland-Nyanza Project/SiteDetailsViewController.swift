@@ -10,8 +10,8 @@ import UIKit
 
 class SiteDetailsViewController: UIViewController {
     @IBOutlet weak var siteTitleLabel: UILabel!
-    @IBOutlet weak var siteDescriptionLabel: UILabel!
     @IBOutlet weak var sitePhoto: UIImageView!
+    @IBOutlet weak var siteDescriptionLabel: UITextView!
     var currentSite: ListItem?
 
     override func viewDidLoad() {

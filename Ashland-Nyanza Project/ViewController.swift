@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var projectBanner: UIImageView!
+    @IBOutlet weak var homeView: UICollectionView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,6 +38,8 @@ class ViewController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         navigationItem.title = nil
         
+    }
+    @IBAction func goBackToMain(segue:UIStoryboardSegue) {
     }
 }
 

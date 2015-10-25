@@ -1,108 +1,123 @@
 {
   "images" : [
     {
-      "idiom" : "iphone",
       "size" : "29x29",
+      "idiom" : "iphone",
+      "filename" : "appicon 29.png",
       "scale" : "1x"
     },
     {
-      "idiom" : "iphone",
       "size" : "29x29",
+      "idiom" : "iphone",
+      "filename" : "appicon 58.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
       "size" : "29x29",
+      "idiom" : "iphone",
+      "filename" : "appicon 87.png",
       "scale" : "3x"
     },
     {
-      "idiom" : "iphone",
       "size" : "40x40",
+      "idiom" : "iphone",
+      "filename" : "appicon 80.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
       "size" : "40x40",
+      "idiom" : "iphone",
+      "filename" : "appicon 120.png",
       "scale" : "3x"
     },
     {
-      "idiom" : "iphone",
       "size" : "57x57",
+      "idiom" : "iphone",
+      "filename" : "appicon 57.png",
       "scale" : "1x"
     },
     {
-      "idiom" : "iphone",
       "size" : "57x57",
+      "idiom" : "iphone",
+      "filename" : "appicon 114.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
       "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "appicon 120-1.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
       "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "appicon 180.png",
       "scale" : "3x"
     },
     {
-      "idiom" : "ipad",
       "size" : "29x29",
+      "idiom" : "ipad",
+      "filename" : "appicon 29-1.png",
       "scale" : "1x"
     },
     {
-      "idiom" : "ipad",
       "size" : "29x29",
+      "idiom" : "ipad",
+      "filename" : "appicon 58-1.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "ipad",
       "size" : "40x40",
+      "idiom" : "ipad",
+      "filename" : "appicon 40.png",
       "scale" : "1x"
     },
     {
-      "idiom" : "ipad",
       "size" : "40x40",
+      "idiom" : "ipad",
+      "filename" : "appicon 80-1.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "ipad",
       "size" : "50x50",
+      "idiom" : "ipad",
+      "filename" : "appicon 50.png",
       "scale" : "1x"
     },
     {
-      "idiom" : "ipad",
       "size" : "50x50",
+      "idiom" : "ipad",
+      "filename" : "appicon 100.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "ipad",
       "size" : "72x72",
+      "idiom" : "ipad",
+      "filename" : "appicon 72.png",
       "scale" : "1x"
     },
     {
-      "idiom" : "ipad",
       "size" : "72x72",
+      "idiom" : "ipad",
+      "filename" : "appicon 144.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "ipad",
       "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "appicon 76.png",
       "scale" : "1x"
     },
     {
-      "idiom" : "ipad",
       "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "appicon 152.png",
       "scale" : "2x"
-    },
-    {
-      "idiom" : "car",
-      "size" : "120x120",
-      "scale" : "1x"
     },
     {
       "size" : "24x24",
       "idiom" : "watch",
+      "filename" : "appicon 48.png",
       "scale" : "2x",
       "role" : "notificationCenter",
       "subtype" : "38mm"
@@ -110,6 +125,7 @@
     {
       "size" : "27.5x27.5",
       "idiom" : "watch",
+      "filename" : "appicon 55.png",
       "scale" : "2x",
       "role" : "notificationCenter",
       "subtype" : "42mm"
@@ -117,18 +133,21 @@
     {
       "size" : "29x29",
       "idiom" : "watch",
+      "filename" : "appicon 58-2.png",
       "role" : "companionSettings",
       "scale" : "2x"
     },
     {
       "size" : "29x29",
       "idiom" : "watch",
+      "filename" : "appicon 87-1.png",
       "role" : "companionSettings",
       "scale" : "3x"
     },
     {
       "size" : "40x40",
       "idiom" : "watch",
+      "filename" : "appicon 80-2.png",
       "scale" : "2x",
       "role" : "appLauncher",
       "subtype" : "38mm"
@@ -136,6 +155,7 @@
     {
       "size" : "44x44",
       "idiom" : "watch",
+      "filename" : "appicon 88.png",
       "scale" : "2x",
       "role" : "longLook",
       "subtype" : "42mm"
@@ -143,6 +163,7 @@
     {
       "size" : "86x86",
       "idiom" : "watch",
+      "filename" : "appicon 172.png",
       "scale" : "2x",
       "role" : "quickLook",
       "subtype" : "38mm"
@@ -150,6 +171,7 @@
     {
       "size" : "98x98",
       "idiom" : "watch",
+      "filename" : "appicon 196.png",
       "scale" : "2x",
       "role" : "quickLook",
       "subtype" : "42mm"
