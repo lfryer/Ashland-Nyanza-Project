@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8112AFA51BCEB456009314B4 /* BookListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8112AFA41BCEB456009314B4 /* BookListTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		8146B3721BD049930071D318 /* BookListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8146B3711BD049930071D318 /* BookListTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		8146B3741BD178F20071D318 /* BookListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8146B3731BD178F20071D318 /* BookListItem.swift */; settings = {ASSET_TAGS = (); }; };
+		8112AFA51BCEB456009314B4 /* BookListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8112AFA41BCEB456009314B4 /* BookListTableViewController.swift */; };
+		811883D21BDFD1BF001153B8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811883D11BDFD1BF001153B8 /* Launch Screen.storyboard */; };
+		811883D71BDFD558001153B8 /* launchimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 811883D51BDFD558001153B8 /* launchimage.png */; };
+		811883D81BDFD558001153B8 /* launchimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 811883D61BDFD558001153B8 /* launchimage@2x.png */; };
+		811883DA1BDFD612001153B8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 811883D91BDFD612001153B8 /* Default-568h@2x.png */; };
+		8146B3721BD049930071D318 /* BookListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8146B3711BD049930071D318 /* BookListTableViewCell.swift */; };
+		8146B3741BD178F20071D318 /* BookListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8146B3731BD178F20071D318 /* BookListItem.swift */; };
+		8155E9071BE94F970012D32A /* InterviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155E9061BE94F970012D32A /* InterviewsViewController.swift */; };
 		8164369C1B866D89009E1C22 /* SiteDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8164369B1B866D88009E1C22 /* SiteDetailsViewController.swift */; };
 		816436A01B9E0EAF009E1C22 /* SiteListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8164369F1B9E0EAF009E1C22 /* SiteListTableViewController.swift */; };
 		816436A21B9E17E0009E1C22 /* ListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816436A11B9E17E0009E1C22 /* ListItemTableViewCell.swift */; };
@@ -20,7 +25,6 @@
 		81C8AECB1B82878000C6552C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81C8AEC91B82878000C6552C /* LaunchScreen.xib */; };
 		81C8AED71B82878000C6552C /* Ashland_Nyanza_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C8AED61B82878000C6552C /* Ashland_Nyanza_ProjectTests.swift */; };
 		81C8AEE11B829D6F00C6552C /* SiteMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C8AEE01B829D6F00C6552C /* SiteMapViewController.swift */; };
-		81C8AEE51B829EE100C6552C /* InterviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C8AEE41B829EE100C6552C /* InterviewsViewController.swift */; };
 		81C8AEE91B829EFB00C6552C /* SharingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C8AEE81B829EFB00C6552C /* SharingViewController.swift */; };
 		81C8AEED1B8542EA00C6552C /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C8AEEC1B8542EA00C6552C /* ListItem.swift */; };
 		81DD748B1B9F7AFA00D849A4 /* ChemicalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DD748A1B9F7AFA00D849A4 /* ChemicalsTableViewController.swift */; };
@@ -41,8 +45,13 @@
 
 /* Begin PBXFileReference section */
 		8112AFA41BCEB456009314B4 /* BookListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListTableViewController.swift; sourceTree = "<group>"; };
+		811883D11BDFD1BF001153B8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		811883D51BDFD558001153B8 /* launchimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launchimage.png; path = Images.xcassets/launchimage.png; sourceTree = "<group>"; };
+		811883D61BDFD558001153B8 /* launchimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "launchimage@2x.png"; path = "Images.xcassets/launchimage@2x.png"; sourceTree = "<group>"; };
+		811883D91BDFD612001153B8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8146B3711BD049930071D318 /* BookListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListTableViewCell.swift; sourceTree = "<group>"; };
 		8146B3731BD178F20071D318 /* BookListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListItem.swift; sourceTree = "<group>"; };
+		8155E9061BE94F970012D32A /* InterviewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewsViewController.swift; sourceTree = "<group>"; };
 		8164369B1B866D88009E1C22 /* SiteDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteDetailsViewController.swift; sourceTree = "<group>"; };
 		8164369F1B9E0EAF009E1C22 /* SiteListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteListTableViewController.swift; sourceTree = "<group>"; };
 		816436A11B9E17E0009E1C22 /* ListItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemTableViewCell.swift; sourceTree = "<group>"; };
@@ -57,7 +66,6 @@
 		81C8AED51B82878000C6552C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81C8AED61B82878000C6552C /* Ashland_Nyanza_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ashland_Nyanza_ProjectTests.swift; sourceTree = "<group>"; };
 		81C8AEE01B829D6F00C6552C /* SiteMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteMapViewController.swift; sourceTree = "<group>"; };
-		81C8AEE41B829EE100C6552C /* InterviewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewsViewController.swift; sourceTree = "<group>"; };
 		81C8AEE81B829EFB00C6552C /* SharingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharingViewController.swift; sourceTree = "<group>"; };
 		81C8AEEC1B8542EA00C6552C /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		81DD748A1B9F7AFA00D849A4 /* ChemicalsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalsTableViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +95,7 @@
 		81C8AEB21B82878000C6552C = {
 			isa = PBXGroup;
 			children = (
+				811883D91BDFD612001153B8 /* Default-568h@2x.png */,
 				81C8AEBD1B82878000C6552C /* Ashland-Nyanza Project */,
 				81C8AED31B82878000C6552C /* Ashland-Nyanza ProjectTests */,
 				81C8AEBC1B82878000C6552C /* Products */,
@@ -105,9 +114,12 @@
 		81C8AEBD1B82878000C6552C /* Ashland-Nyanza Project */ = {
 			isa = PBXGroup;
 			children = (
+				811883D51BDFD558001153B8 /* launchimage.png */,
+				811883D61BDFD558001153B8 /* launchimage@2x.png */,
 				81C8AEC01B82878000C6552C /* AppDelegate.swift */,
 				81C8AEC21B82878000C6552C /* ViewController.swift */,
 				81C8AEC41B82878000C6552C /* Main.storyboard */,
+				8155E9061BE94F970012D32A /* InterviewsViewController.swift */,
 				8146B3711BD049930071D318 /* BookListTableViewCell.swift */,
 				8112AFA41BCEB456009314B4 /* BookListTableViewController.swift */,
 				8146B3731BD178F20071D318 /* BookListItem.swift */,
@@ -119,12 +131,12 @@
 				8164369F1B9E0EAF009E1C22 /* SiteListTableViewController.swift */,
 				816436A11B9E17E0009E1C22 /* ListItemTableViewCell.swift */,
 				81C8AEEC1B8542EA00C6552C /* ListItem.swift */,
-				81C8AEE41B829EE100C6552C /* InterviewsViewController.swift */,
 				81C8AEE81B829EFB00C6552C /* SharingViewController.swift */,
 				81C8AEE01B829D6F00C6552C /* SiteMapViewController.swift */,
 				8177D3E81BA08D50002D9CC7 /* Images.xcassets */,
 				81C8AEC91B82878000C6552C /* LaunchScreen.xib */,
 				81C8AEBE1B82878000C6552C /* Supporting Files */,
+				811883D11BDFD1BF001153B8 /* Launch Screen.storyboard */,
 			);
 			path = "Ashland-Nyanza Project";
 			sourceTree = "<group>";
@@ -236,8 +248,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				811883D81BDFD558001153B8 /* launchimage@2x.png in Resources */,
+				811883D71BDFD558001153B8 /* launchimage.png in Resources */,
 				8177D3E91BA08D50002D9CC7 /* Images.xcassets in Resources */,
 				81C8AEC61B82878000C6552C /* Main.storyboard in Resources */,
+				811883D21BDFD1BF001153B8 /* Launch Screen.storyboard in Resources */,
+				811883DA1BDFD612001153B8 /* Default-568h@2x.png in Resources */,
 				81C8AECB1B82878000C6552C /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +272,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81C8AEE51B829EE100C6552C /* InterviewsViewController.swift in Sources */,
 				81C8AEE91B829EFB00C6552C /* SharingViewController.swift in Sources */,
 				81C8AEC31B82878000C6552C /* ViewController.swift in Sources */,
 				8146B3741BD178F20071D318 /* BookListItem.swift in Sources */,
@@ -265,6 +280,7 @@
 				81DD748D1B9F7E3200D849A4 /* ChemicalsListItem.swift in Sources */,
 				81C8AEE11B829D6F00C6552C /* SiteMapViewController.swift in Sources */,
 				81DD748B1B9F7AFA00D849A4 /* ChemicalsTableViewController.swift in Sources */,
+				8155E9071BE94F970012D32A /* InterviewsViewController.swift in Sources */,
 				81C8AEED1B8542EA00C6552C /* ListItem.swift in Sources */,
 				816436A01B9E0EAF009E1C22 /* SiteListTableViewController.swift in Sources */,
 				816436A21B9E17E0009E1C22 /* ListItemTableViewCell.swift in Sources */,
