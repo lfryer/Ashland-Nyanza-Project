@@ -55,6 +55,10 @@ class InterviewsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func back(sender: UIButton) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
