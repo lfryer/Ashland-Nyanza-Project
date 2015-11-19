@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8100CA6B1BF29C74005A38EA /* InterviewVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8100CA6A1BF29C74005A38EA /* InterviewVideo.swift */; };
+		8100CA6D1BF29CBF005A38EA /* InterviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8100CA6C1BF29CBF005A38EA /* InterviewCollectionViewController.swift */; };
+		8100CA6F1BF29E36005A38EA /* InterviewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8100CA6E1BF29E36005A38EA /* InterviewCollectionViewCell.swift */; };
+		8100CA711BF2AB9E005A38EA /* InterviewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8100CA701BF2AB9E005A38EA /* InterviewHeaderView.swift */; };
 		8112AFA51BCEB456009314B4 /* BookListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8112AFA41BCEB456009314B4 /* BookListTableViewController.swift */; };
 		811883D21BDFD1BF001153B8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811883D11BDFD1BF001153B8 /* Launch Screen.storyboard */; };
 		811883D71BDFD558001153B8 /* launchimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 811883D51BDFD558001153B8 /* launchimage.png */; };
 		811883D81BDFD558001153B8 /* launchimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 811883D61BDFD558001153B8 /* launchimage@2x.png */; };
 		811883DA1BDFD612001153B8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 811883D91BDFD612001153B8 /* Default-568h@2x.png */; };
+		8130C20B1BF9241F003935C7 /* InterviewSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8130C20A1BF9241F003935C7 /* InterviewSplashViewController.swift */; };
+		8130C20D1BFD218F003935C7 /* InterviewSplashCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8130C20C1BFD218F003935C7 /* InterviewSplashCollectionViewCell.swift */; };
 		8146B3721BD049930071D318 /* BookListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8146B3711BD049930071D318 /* BookListTableViewCell.swift */; };
 		8146B3741BD178F20071D318 /* BookListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8146B3731BD178F20071D318 /* BookListItem.swift */; };
-		8155E9071BE94F970012D32A /* InterviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8155E9061BE94F970012D32A /* InterviewsViewController.swift */; };
 		8164369C1B866D89009E1C22 /* SiteDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8164369B1B866D88009E1C22 /* SiteDetailsViewController.swift */; };
 		816436A01B9E0EAF009E1C22 /* SiteListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8164369F1B9E0EAF009E1C22 /* SiteListTableViewController.swift */; };
 		816436A21B9E17E0009E1C22 /* ListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816436A11B9E17E0009E1C22 /* ListItemTableViewCell.swift */; };
@@ -44,14 +49,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8100CA6A1BF29C74005A38EA /* InterviewVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewVideo.swift; sourceTree = "<group>"; };
+		8100CA6C1BF29CBF005A38EA /* InterviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewCollectionViewController.swift; sourceTree = "<group>"; };
+		8100CA6E1BF29E36005A38EA /* InterviewCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewCollectionViewCell.swift; sourceTree = "<group>"; };
+		8100CA701BF2AB9E005A38EA /* InterviewHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewHeaderView.swift; sourceTree = "<group>"; };
 		8112AFA41BCEB456009314B4 /* BookListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListTableViewController.swift; sourceTree = "<group>"; };
 		811883D11BDFD1BF001153B8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		811883D51BDFD558001153B8 /* launchimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launchimage.png; path = Images.xcassets/launchimage.png; sourceTree = "<group>"; };
 		811883D61BDFD558001153B8 /* launchimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "launchimage@2x.png"; path = "Images.xcassets/launchimage@2x.png"; sourceTree = "<group>"; };
 		811883D91BDFD612001153B8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8130C20A1BF9241F003935C7 /* InterviewSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewSplashViewController.swift; sourceTree = "<group>"; };
+		8130C20C1BFD218F003935C7 /* InterviewSplashCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewSplashCollectionViewCell.swift; sourceTree = "<group>"; };
 		8146B3711BD049930071D318 /* BookListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListTableViewCell.swift; sourceTree = "<group>"; };
 		8146B3731BD178F20071D318 /* BookListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListItem.swift; sourceTree = "<group>"; };
-		8155E9061BE94F970012D32A /* InterviewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewsViewController.swift; sourceTree = "<group>"; };
 		8164369B1B866D88009E1C22 /* SiteDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteDetailsViewController.swift; sourceTree = "<group>"; };
 		8164369F1B9E0EAF009E1C22 /* SiteListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteListTableViewController.swift; sourceTree = "<group>"; };
 		816436A11B9E17E0009E1C22 /* ListItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemTableViewCell.swift; sourceTree = "<group>"; };
@@ -119,7 +129,12 @@
 				81C8AEC01B82878000C6552C /* AppDelegate.swift */,
 				81C8AEC21B82878000C6552C /* ViewController.swift */,
 				81C8AEC41B82878000C6552C /* Main.storyboard */,
-				8155E9061BE94F970012D32A /* InterviewsViewController.swift */,
+				8130C20C1BFD218F003935C7 /* InterviewSplashCollectionViewCell.swift */,
+				8130C20A1BF9241F003935C7 /* InterviewSplashViewController.swift */,
+				8100CA701BF2AB9E005A38EA /* InterviewHeaderView.swift */,
+				8100CA6C1BF29CBF005A38EA /* InterviewCollectionViewController.swift */,
+				8100CA6E1BF29E36005A38EA /* InterviewCollectionViewCell.swift */,
+				8100CA6A1BF29C74005A38EA /* InterviewVideo.swift */,
 				8146B3711BD049930071D318 /* BookListTableViewCell.swift */,
 				8112AFA41BCEB456009314B4 /* BookListTableViewController.swift */,
 				8146B3731BD178F20071D318 /* BookListItem.swift */,
@@ -272,22 +287,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8100CA6D1BF29CBF005A38EA /* InterviewCollectionViewController.swift in Sources */,
+				8130C20D1BFD218F003935C7 /* InterviewSplashCollectionViewCell.swift in Sources */,
+				8130C20B1BF9241F003935C7 /* InterviewSplashViewController.swift in Sources */,
 				81C8AEE91B829EFB00C6552C /* SharingViewController.swift in Sources */,
 				81C8AEC31B82878000C6552C /* ViewController.swift in Sources */,
 				8146B3741BD178F20071D318 /* BookListItem.swift in Sources */,
 				81DD748F1B9F7F3300D849A4 /* ChemicalsTableViewCell.swift in Sources */,
 				8164369C1B866D89009E1C22 /* SiteDetailsViewController.swift in Sources */,
+				8100CA6B1BF29C74005A38EA /* InterviewVideo.swift in Sources */,
 				81DD748D1B9F7E3200D849A4 /* ChemicalsListItem.swift in Sources */,
 				81C8AEE11B829D6F00C6552C /* SiteMapViewController.swift in Sources */,
 				81DD748B1B9F7AFA00D849A4 /* ChemicalsTableViewController.swift in Sources */,
-				8155E9071BE94F970012D32A /* InterviewsViewController.swift in Sources */,
 				81C8AEED1B8542EA00C6552C /* ListItem.swift in Sources */,
+				8100CA6F1BF29E36005A38EA /* InterviewCollectionViewCell.swift in Sources */,
 				816436A01B9E0EAF009E1C22 /* SiteListTableViewController.swift in Sources */,
 				816436A21B9E17E0009E1C22 /* ListItemTableViewCell.swift in Sources */,
 				81DD74911B9F827A00D849A4 /* ChemicalDetailsViewController.swift in Sources */,
 				81C8AEC11B82878000C6552C /* AppDelegate.swift in Sources */,
 				8146B3721BD049930071D318 /* BookListTableViewCell.swift in Sources */,
 				8112AFA51BCEB456009314B4 /* BookListTableViewController.swift in Sources */,
+				8100CA711BF2AB9E005A38EA /* InterviewHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
