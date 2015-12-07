@@ -9,20 +9,26 @@
 import UIKit
 
 class InterviewSplashViewController: UIViewController {
+    
+    private let reuseIdentifier = "videoCell"
 
     @IBOutlet weak var videoScreenshot: UIImageView!
     @IBOutlet weak var videoName: UILabel!
     @IBOutlet weak var videoSummary: UITextView!
-    var currentInterview: ListItem?
+    @IBOutlet weak var videoList: UICollectionView!
+    var currentInterviewList: [InterviewVideo]?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let currentInterview = currentInterview {
-            videoSummary.text = currentInterview.descrip
-            videoName.text = currentInterview.text
-            videoScreenshot.image = currentInterview.photo
+        if let currentInterviewList = currentInterviewList {
+            videoScreenshot.image = currentInterviewList[0].photo
+            videoName.text = currentInterviewList[0].text
         }
+        
+        // Register cell classes
+        videoList.registerClass(InterviewSplashCollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+        
         // Do any additional setup after loading the view.
     }
     
@@ -33,8 +39,27 @@ class InterviewSplashViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+        // #warning Incomplete implementation, return the number of sections
+        return 1
+    }
 
-
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        // #warning Incomplete implementation, return the number of items
+        return currentInterviewList!.count
+    }
+    
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath)
+            as! InterviewSplashCollectionViewCell
+        
+        // Configure the cell
+        let interview = currentInterviewList![indexPath.row]
+        cell.interviewDescrip.text = interview.descrip
+        
+        return cell
+    }
+    
     /*
     // MARK: - Navigation
 

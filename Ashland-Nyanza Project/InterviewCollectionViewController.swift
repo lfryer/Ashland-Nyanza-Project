@@ -18,6 +18,7 @@ class InterviewCollectionViewController: UICollectionViewController {
     var interviewsList = [InterviewVideo]()
     var sectionNames = [String]()
     var interviewsBySection = [[InterviewVideo]]()
+    var interviewsByName = [String: [InterviewVideo]]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,20 +54,20 @@ class InterviewCollectionViewController: UICollectionViewController {
         let photo6 = UIImage(named: "karenspilka.png")!
         let interview6 = InterviewVideo(text: "Karen Spilka", descrip: "Creating the Ashland Town Flag", photo: photo6, url: "http://baystatecommons.org/ashlandnyanzaproject/government/Karen%20Spilka%20Clip%201.mp4")
         
-        let photo7 = UIImage(named: "cousinstwo.png")!
-        let interview7 = InterviewVideo(text: "Tracie Lee Tajiani", descrip: "Remembering Kevin", photo: photo7, url: "http://baystatecommons.org/ashlandnyanzaproject/family/cousins%201.mp4")
+        let photo7 = UIImage(named: "cousinsone.png")!
+        let interview7 = InterviewVideo(text: "Kane Family Cousins", descrip: "Remembering Kevin", photo: photo7, url: "http://baystatecommons.org/ashlandnyanzaproject/family/cousins%201.mp4")
         
-        let photo8 = UIImage(named: "cousinstwo.png")!
-        let interview8 = InterviewVideo(text: "Tracie Lee Tajiani", descrip: "Relay for Life", photo: photo8, url: "http://baystatecommons.org/ashlandnyanzaproject/family/cousins%202.mp4")
+        let photo8 = UIImage(named: "cousinsone.png")!
+        let interview8 = InterviewVideo(text: "Kane Family Cousins", descrip: "Relay for Life", photo: photo8, url: "http://baystatecommons.org/ashlandnyanzaproject/family/cousins%202.mp4")
         
-        let photo9 = UIImage(named: "cousinstwo.png")!
-        let interview9 = InterviewVideo(text: "Tracie Lee Tajiani with Kate, Abbie, & Olivia Kane", descrip: "Family", photo: photo9, url: "http://baystatecommons.org/ashlandnyanzaproject/family/cousins%203.mp4")
+        let photo9 = UIImage(named: "cousinsone.png")!
+        let interview9 = InterviewVideo(text: "Kane Family Cousins", descrip: "Family", photo: photo9, url: "http://baystatecommons.org/ashlandnyanzaproject/family/cousins%203.mp4")
         
         let photo10 = UIImage(named: "aace.png")!
-        let interview10 = InterviewVideo(text: "Holly Guy", descrip: "The History of AACE", photo: photo10, url: "http://baystatecommons.org/ashlandnyanzaproject/community/AACE1.mp4")
+        let interview10 = InterviewVideo(text: "AACE", descrip: "The History of AACE", photo: photo10, url: "http://baystatecommons.org/ashlandnyanzaproject/community/AACE1.mp4")
         
         let photo11 = UIImage(named: "aace.png")!
-        let interview11 = InterviewVideo(text: "Arthur Shapiro", descrip: "What Has Changed", photo: photo11, url: "http://baystatecommons.org/ashlandnyanzaproject/community/AACE2.mp4")
+        let interview11 = InterviewVideo(text: "AACE", descrip: "What Has Changed", photo: photo11, url: "http://baystatecommons.org/ashlandnyanzaproject/community/AACE2.mp4")
         
         let photo12 = UIImage(named: "cliffwilson.png")!
         let interview12 = InterviewVideo(text: "Cliff Wilson", descrip: "Colors in the Water", photo: photo12, url: "http://baystatecommons.org/ashlandnyanzaproject/community/Cliff%20Wilsoncolorinwater.mp4")
@@ -138,6 +139,18 @@ class InterviewCollectionViewController: UICollectionViewController {
         interviewsBySection.append([InterviewVideo]())
         interviewsBySection.append([InterviewVideo]())
         
+        interviewsByName["Suzanne Condon"] = [interview1, interview2, interview3, interview4]
+        interviewsByName["Dan Keefe"] = [interview5]
+        interviewsByName["Karen Spilka"] = [interview6]
+        interviewsByName["Kane Family Cousins"] = [interview7, interview8, interview9]
+        interviewsByName["AACE"] = [interview10, interview11]
+        interviewsByName["Cliff Wilson"] = [interview12]
+        interviewsByName["Timmy Tracy"] = [interview13, interview14]
+        interviewsByName["James Merloni, Jr"] = [interview15, interview16, interview17]
+        interviewsByName["Doug Green, PhD"] = [interview18, interview19, interview20, interview21, interview22, interview23, interview24]
+        interviewsByName["Lisa Kaufman"] = [interview26, interview27, interview28, interview29]
+        interviewsByName["Bernie & Marie Kane"] = [interview30, interview31, interview32, interview33]
+        
         interviewsBySection[0] = [interview10, interview11, interview12, interview13, interview14, interview15, interview16, interview17, interview18, interview19, interview20, interview21, interview22, interview23, interview24, interview25]
         
         interviewsBySection[1] = [interview7, interview8, interview9, interview26, interview27, interview28, interview29, interview30, interview31, interview32, interview33]
@@ -195,16 +208,16 @@ class InterviewCollectionViewController: UICollectionViewController {
         // Configure the cell
         let interview = interviewsBySection[indexPath.section][indexPath.row]
         cell.interviewLabel.text = interview.text
-        cell.interviewDescrip.text = interview.descrip
+        /*cell.interviewDescrip.text = interview.descrip*/
         cell.interviewScreenshot.image = interview.photo
     
         return cell
     }
 
-    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+    /*override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         let interview = interviewsBySection[indexPath.section][indexPath.row]
         UIApplication.sharedApplication().openURL(NSURL(string: interview.url)!)
-    }
+    }*/
     
     // MARK: UICollectionViewDelegate
 
@@ -238,13 +251,13 @@ class InterviewCollectionViewController: UICollectionViewController {
     */
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "showInterviewSplash" {
+        if segue.identifier == "gotoSplash" {
             let interviewSplashViewController = segue.destinationViewController as!
             InterviewSplashViewController
             if let selectedInterviewCell = sender as? InterviewCollectionViewCell {
-                let indexPath = collectionView.indexPathForCell(selectedInterviewCell)
-                let selectedInterview = interviewList[indexPath!.row]
-                interviewSplashViewController.currentInterview = selectedInterview
+                let indexPath = collectionView!.indexPathForCell(selectedInterviewCell)
+                let selectedInterview = interviewsBySection[indexPath!.section][indexPath!.row]
+                interviewSplashViewController.currentInterviewList = interviewsByName[selectedInterview.text]
                 
             }
         }
