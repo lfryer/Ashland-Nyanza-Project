@@ -462,7 +462,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kxU-UJ-dHe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3172" y="1028"/>
+            <point key="canvasLocation" x="2666" y="1028"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="JEi-ld-ZK8">
@@ -481,7 +481,7 @@
                                 <animations/>
                                 <state key="normal" title="Sites List View"/>
                                 <connections>
-                                    <segue destination="GUE-9R-Lrs" kind="push" id="tTN-ra-GHe"/>
+                                    <segue destination="QJa-gK-XtT" kind="push" id="xGh-vM-cIX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2a-1e-rVg">
@@ -489,7 +489,7 @@
                                 <animations/>
                                 <state key="normal" title="Sites Map View"/>
                                 <connections>
-                                    <segue destination="nDq-2S-QgZ" kind="push" id="cGC-Hc-3AV"/>
+                                    <segue destination="woR-Xd-JjH" kind="push" id="2Fa-eU-Xpx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -937,7 +937,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FOg-jl-JbT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2667" y="1028"/>
+            <point key="canvasLocation" x="2666" y="322"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="P8O-zo-LZf">
@@ -970,6 +970,8 @@
     <inferredMetricsTieBreakers>
         <segue reference="GAF-ax-PQu"/>
         <segue reference="8e3-2f-hMh"/>
+        <segue reference="xGh-vM-cIX"/>
         <segue reference="tSJ-iU-Mol"/>
+        <segue reference="NMe-PI-rfV"/>
     </inferredMetricsTieBreakers>
 </document>
