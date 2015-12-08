@@ -32,6 +32,7 @@
 		81C8AEE11B829D6F00C6552C /* SiteMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C8AEE01B829D6F00C6552C /* SiteMapViewController.swift */; };
 		81C8AEE91B829EFB00C6552C /* SharingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C8AEE81B829EFB00C6552C /* SharingViewController.swift */; };
 		81C8AEED1B8542EA00C6552C /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C8AEEC1B8542EA00C6552C /* ListItem.swift */; };
+		81D5CAE31C1792A600EED763 /* MapLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D5CAE21C1792A600EED763 /* MapLocation.swift */; };
 		81DD748B1B9F7AFA00D849A4 /* ChemicalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DD748A1B9F7AFA00D849A4 /* ChemicalsTableViewController.swift */; };
 		81DD748D1B9F7E3200D849A4 /* ChemicalsListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DD748C1B9F7E3200D849A4 /* ChemicalsListItem.swift */; };
 		81DD748F1B9F7F3300D849A4 /* ChemicalsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DD748E1B9F7F3300D849A4 /* ChemicalsTableViewCell.swift */; };
@@ -78,6 +79,7 @@
 		81C8AEE01B829D6F00C6552C /* SiteMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteMapViewController.swift; sourceTree = "<group>"; };
 		81C8AEE81B829EFB00C6552C /* SharingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharingViewController.swift; sourceTree = "<group>"; };
 		81C8AEEC1B8542EA00C6552C /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		81D5CAE21C1792A600EED763 /* MapLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapLocation.swift; sourceTree = "<group>"; };
 		81DD748A1B9F7AFA00D849A4 /* ChemicalsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalsTableViewController.swift; sourceTree = "<group>"; };
 		81DD748C1B9F7E3200D849A4 /* ChemicalsListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalsListItem.swift; sourceTree = "<group>"; };
 		81DD748E1B9F7F3300D849A4 /* ChemicalsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChemicalsTableViewCell.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				81C8AEEC1B8542EA00C6552C /* ListItem.swift */,
 				81C8AEE81B829EFB00C6552C /* SharingViewController.swift */,
 				81C8AEE01B829D6F00C6552C /* SiteMapViewController.swift */,
+				81D5CAE21C1792A600EED763 /* MapLocation.swift */,
 				8177D3E81BA08D50002D9CC7 /* Images.xcassets */,
 				81C8AEC91B82878000C6552C /* LaunchScreen.xib */,
 				81C8AEBE1B82878000C6552C /* Supporting Files */,
@@ -304,6 +307,7 @@
 				816436A01B9E0EAF009E1C22 /* SiteListTableViewController.swift in Sources */,
 				816436A21B9E17E0009E1C22 /* ListItemTableViewCell.swift in Sources */,
 				81DD74911B9F827A00D849A4 /* ChemicalDetailsViewController.swift in Sources */,
+				81D5CAE31C1792A600EED763 /* MapLocation.swift in Sources */,
 				81C8AEC11B82878000C6552C /* AppDelegate.swift in Sources */,
 				8146B3721BD049930071D318 /* BookListTableViewCell.swift in Sources */,
 				8112AFA51BCEB456009314B4 /* BookListTableViewController.swift in Sources */,
