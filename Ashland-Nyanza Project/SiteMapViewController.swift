@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import MapKit
 
 class SiteMapViewController: UIViewController {
+    @IBOutlet weak var mapView: MKMapView!
     @IBAction func close() {
     dismissViewControllerAnimated(true, completion: nil)
     }
