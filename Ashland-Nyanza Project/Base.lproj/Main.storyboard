@@ -341,7 +341,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ScJ-wN-aqJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2203" y="2380"/>
+            <point key="canvasLocation" x="3053" y="1733"/>
         </scene>
         <!--Site List-->
         <scene sceneID="9QB-Rc-0Od">
@@ -418,7 +418,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2GW-T5-UtY">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2GW-T5-UtY">
                                 <rect key="frame" x="244" y="20" width="60" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Go Back">
@@ -428,36 +428,24 @@
                                     <action selector="close" destination="woR-Xd-JjH" eventType="touchUpInside" id="Sd6-RO-tgH"/>
                                 </connections>
                             </button>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z23-Ef-bED">
-                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
-                                <animations/>
-                                <items>
-                                    <barButtonItem title="Item" id="pHW-QZ-1iK"/>
-                                </items>
-                            </toolbar>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e1A-Zx-tqF">
-                                <rect key="frame" x="0.0" y="64" width="320" height="460"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="460" id="Quz-9C-iiv"/>
-                                </constraints>
                             </mapView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="e1A-Zx-tqF" firstAttribute="leading" secondItem="uda-rp-frB" secondAttribute="leading" id="T4F-uv-lG7"/>
-                            <constraint firstItem="e1A-Zx-tqF" firstAttribute="leading" secondItem="z23-Ef-bED" secondAttribute="leading" id="XNM-pZ-1qN"/>
-                            <constraint firstItem="e1A-Zx-tqF" firstAttribute="bottom" secondItem="z23-Ef-bED" secondAttribute="top" id="ZJn-02-1Ya"/>
-                            <constraint firstItem="e1A-Zx-tqF" firstAttribute="top" secondItem="uda-rp-frB" secondAttribute="top" constant="64" id="eQY-9h-z50"/>
-                            <constraint firstItem="e1A-Zx-tqF" firstAttribute="top" secondItem="2GW-T5-UtY" secondAttribute="bottom" constant="14" id="gjc-lf-i5u"/>
-                            <constraint firstAttribute="trailing" secondItem="e1A-Zx-tqF" secondAttribute="trailing" id="rtr-8N-qD9"/>
-                            <constraint firstItem="e1A-Zx-tqF" firstAttribute="trailing" secondItem="z23-Ef-bED" secondAttribute="trailing" id="yAl-uz-nbH"/>
+                            <constraint firstItem="e1A-Zx-tqF" firstAttribute="leading" secondItem="uda-rp-frB" secondAttribute="leading" id="AQv-Fv-rrF"/>
+                            <constraint firstAttribute="trailing" secondItem="e1A-Zx-tqF" secondAttribute="trailing" id="BhW-Dh-FQD"/>
+                            <constraint firstItem="e1A-Zx-tqF" firstAttribute="top" secondItem="JUc-iK-0EF" secondAttribute="bottom" id="Lab-MA-CJ9"/>
+                            <constraint firstItem="e1A-Zx-tqF" firstAttribute="bottom" secondItem="xjm-e1-ZcB" secondAttribute="top" id="RWa-9B-eKG"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="sJg-0S-XXa"/>
                     <connections>
                         <outlet property="mapView" destination="e1A-Zx-tqF" id="euZ-Xe-3DA"/>
+                        <segue destination="kRe-Ov-8JR" kind="push" identifier="goToLocation" id="3I1-HV-Sd7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kxU-UJ-dHe" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -603,7 +591,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gtc-dD-XOM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1803" y="2380"/>
+            <point key="canvasLocation" x="2661" y="2205"/>
         </scene>
         <!--Interviews-->
         <scene sceneID="ozj-VN-A1D">
@@ -968,10 +956,10 @@
         <image name="Website" width="60" height="45"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="GAF-ax-PQu"/>
+        <segue reference="3I1-HV-Sd7"/>
+        <segue reference="NMe-PI-rfV"/>
         <segue reference="8e3-2f-hMh"/>
         <segue reference="xGh-vM-cIX"/>
         <segue reference="tSJ-iU-Mol"/>
-        <segue reference="NMe-PI-rfV"/>
     </inferredMetricsTieBreakers>
 </document>
