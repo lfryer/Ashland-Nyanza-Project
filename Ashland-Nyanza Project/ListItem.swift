@@ -14,16 +14,13 @@ class ListItem: NSObject {
     
     var photo: UIImage?
     
-    var videos: [String]?
-    
     var descrip: String
 
     
     // Returns a ToDoItem initialized with the given text and default completed value.
-    init(text: String, photo: UIImage?, videos: [String]?, descrip: String) {
+    init(text: String, photo: UIImage?, descrip: String) {
         self.text = text
         self.photo = photo
-        self.videos = videos
         self.descrip = descrip
     }
    

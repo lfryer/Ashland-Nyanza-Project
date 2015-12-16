@@ -8,7 +8,7 @@
 
 import UIKit
 
-class InterviewSplashViewController: UIViewController {
+class InterviewSplashViewController: UICollectionViewController {
     
     private let reuseIdentifier = "videoCell"
 
@@ -27,7 +27,7 @@ class InterviewSplashViewController: UIViewController {
         }
         
         // Register cell classes
-        videoList.registerClass(InterviewSplashCollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+        //videoList.registerClass(InterviewSplashCollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
         
         // Do any additional setup after loading the view.
     }
@@ -39,17 +39,17 @@ class InterviewSplashViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+    override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
         return currentInterviewList!.count
     }
     
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath)
             as! InterviewSplashCollectionViewCell
         
