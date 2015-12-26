@@ -12,5 +12,4 @@ class InterviewCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var interviewScreenshot: UIImageView!
     
     @IBOutlet weak var interviewLabel: UILabel!
-    @IBOutlet weak var interviewDescrip: UILabel!
 }

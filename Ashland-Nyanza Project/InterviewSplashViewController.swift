@@ -24,6 +24,8 @@ class InterviewSplashViewController: UICollectionViewController {
         if let currentInterviewList = currentInterviewList {
             videoScreenshot.image = currentInterviewList[0].photo
             videoName.text = currentInterviewList[0].text
+            videoSummary.text = currentInterviewList[0].summary
+            
         }
         
         // Register cell classes
@@ -32,7 +34,10 @@ class InterviewSplashViewController: UICollectionViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        self.videoList.flashScrollIndicators()
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -57,17 +62,25 @@ class InterviewSplashViewController: UICollectionViewController {
         let interview = currentInterviewList![indexPath.row]
         cell.interviewDescrip.text = interview.descrip
         
+        
         return cell
     }
     
-    /*
-    // MARK: - Navigation
+    
+    /*// MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+    }*/
+    
+    
+    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        let video = currentInterviewList![indexPath.row]
+        UIApplication.sharedApplication().openURL(NSURL(string: video.url)!)
     }
-    */
-
+    
+    
 }
+

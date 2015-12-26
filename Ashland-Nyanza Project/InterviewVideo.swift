@@ -18,12 +18,15 @@ class InterviewVideo: NSObject {
     
     var url: String
     
+    var summary: String?
     
-    init(text: String, descrip: String, photo: UIImage?, url: String) {
+    
+    init(text: String, descrip: String, photo: UIImage?, url: String, summary: String? = "") {
         self.text = text
         self.descrip = descrip
         self.photo = photo
         self.url = url
+        self.summary = summary
     }
     
 }
